@@ -1,0 +1,71 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : May 25, 2021, 3:52:57 PM
+    Author     : Admin
+*/
+
+.header {
+    padding-left: 20%;
+}
+
+.welcome-user, .welcome-user tbody tr td {
+    border: none;
+}
+
+.welcome-user tbody tr td h4 {
+    color: red;
+}
+
+.log-out-btn, .manage-process {
+    margin-left: 10px;
+}
+
+.cart-detail {
+    margin-left: 300px;
+}
+
+.long-name {
+    width: 450px;
+}
+
+table thead tr th {
+    width: 120px;
+}
+
+table tbody tr td {
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.deny-btn {
+    padding: 10px 20px 10px 20px;
+    background-color: red;
+    color: white;
+    border: 1px solid white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.accept-btn {
+    padding: 10px 20px 10px 20px;
+    background-color: green;
+    color: white;
+    border: 1px solid white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+h1.title-detail {
+    width: 75%;
+    text-align: center;
+}
+
+
+table.welcome-user {
+    margin-left: 120px;
+}

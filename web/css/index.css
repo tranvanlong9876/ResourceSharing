@@ -1,0 +1,32 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : May 28, 2021, 7:57:04 PM
+    Author     : Admin
+*/
+
+.google-icon {
+    background-image: url("../image/google-icon.png");
+}
+
+table tbody tr td {
+    padding-right: 10px;
+    padding-bottom: 10px;
+}
+
+h1 {
+    text-align: center;
+}
+
+.login-page {
+    margin-left: 40%;
+    width: 20%;
+    padding: 20px;
+}
+
+.login-register {
+    margin-left: 13%;
+}

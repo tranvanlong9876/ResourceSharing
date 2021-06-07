@@ -1,0 +1,72 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : May 11, 2021, 8:16:55 PM
+    Author     : Admin
+*/
+
+.welcome-user, .welcome-user tbody tr td {
+    border: none;
+}
+
+.verify-account-form table, .verify-account-form table tbody tr td {
+    border: none;
+}
+
+.send-email {
+    color: red;
+}
+
+.welcome-user tbody tr td h4 {
+    color: red;
+}
+
+.log-out-btn, .manage-process {
+    margin-left: 10px;
+}
+
+.login-register {
+    height: 50%;
+}
+
+a {
+    text-decoration: none;
+}
+
+.register-form {
+    width: 100%;
+}
+
+.register-form input {
+    float: right;
+}
+
+.register-form table, .register-form table tbody tr td {
+    border: none;
+}
+
+.register-form table tbody tr td input, .register-form table tbody tr td font, .register-form table tbody tr td textarea {
+    margin-left: 20px;
+    resize: none;
+}
+
+.register-form table tbody tr {
+   height: 30px;
+}
+
+.search-function tbody tr td {
+    padding-right: 5px;
+}
+
+table.item-list {
+    padding-top: 30px;
+    width: 90%;
+}
+
+table.item-list tbody tr td {
+    text-align: center;
+    padding-top: 10px;
+}

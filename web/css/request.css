@@ -1,0 +1,75 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : May 23, 2021, 1:11:49 PM
+    Author     : Admin
+*/
+
+body {
+    padding-left: 7%;
+}
+
+.header {
+    padding-left: 20%;
+}
+
+.paging {
+    padding-left: 15%;
+}
+
+.log-out-btn, .back-to-search {
+    margin-left: 10px;
+}
+
+.welcome-user tbody tr td h4 {
+    color: red;
+}
+
+table.item-list {
+    padding-top: 30px;
+    padding-left: 100px;
+    width: 80%;
+}
+
+table.item-list tbody tr td {
+    text-align: center;
+    padding-top: 10px;
+}
+
+table.search-function tbody tr td {
+    padding-right: 13px;
+}
+
+table.search-function {
+    padding-left: 40px;
+}
+
+.paging {
+    padding-left: 15%;
+}
+
+.paging table {
+    margin-left: 25%;
+    margin-top: 2%;
+}
+
+a {
+    text-decoration: none;
+    color: red;
+}
+
+.notfound-request {
+    margin: 10% 0px 0px 32%;
+    position: absolute;
+    top: 100px;
+    font-style: italic;
+    font-weight: bold;
+}
+
+h1.title-manage {
+    text-align: center;
+    width: 62%;
+}
