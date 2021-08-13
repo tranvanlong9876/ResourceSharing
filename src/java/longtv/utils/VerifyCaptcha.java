@@ -21,7 +21,7 @@ import javax.json.JsonReader;
  */
 public class VerifyCaptcha implements Serializable {
     public static final String URL = "https://www.google.com/recaptcha/api/siteverify";
-    public static final String SECRET_KEY = "6LfrR88aAAAAAAaSystI_LXVSC0lh-zL84YBTQFi";
+    public static final String SECRET_KEY = ""; //secret key
     
     public static boolean verify(String gCaptchaRes) {
         boolean check = false;
