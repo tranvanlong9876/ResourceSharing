@@ -30,8 +30,8 @@ public class SendEmail implements Serializable {
         pro.put("mail.smtp.starttls.enable", "true");
         pro.put("mail.smtp.host", "smtp.gmail.com");
         pro.put("mail.smtp.port", "587");
-        String myEmail = "examble123@gmail.com";
-        String myPassword = "this is password of Gmail Account";
+        String myEmail = "examble123@gmail.com"; //this is email address that will send email to receiver.
+        String myPassword = "123123" //this is password to login Gmail Account;
         
         Session session = Session.getInstance(pro, new Authenticator() {
             @Override
@@ -57,7 +57,7 @@ public class SendEmail implements Serializable {
             String secondLine = "Thanks for using our Resource Sharing system, your activation code is: " + code;
             String thirdLine = "You can also click the link to verify: " + generateURL;
             String lastLine = "Visit our website: http://localhost:8080/ResourceSharing";
-            message.setText(firstLine + "\n" + secondLine + "\n" + thirdLine + "\n\n" + lastLine);
+            message.setText(firstLine + "\n" + secondLine + "\n" + thirdLine + "\n\n" + lastLine); //Details of mail
             return message;
         } catch (AddressException ex) {
             Logger.getLogger(SendEmail.class.getName()).log(Level.SEVERE, null, ex);
