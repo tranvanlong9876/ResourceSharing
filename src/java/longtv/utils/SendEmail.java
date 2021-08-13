@@ -30,8 +30,8 @@ public class SendEmail implements Serializable {
         pro.put("mail.smtp.starttls.enable", "true");
         pro.put("mail.smtp.host", "smtp.gmail.com");
         pro.put("mail.smtp.port", "587");
-        String myEmail = "traanvanlongo@gmail.com";
-        String myPassword = "VanLongpro14789";
+        String myEmail = "examble123@gmail.com";
+        String myPassword = "this is password of Gmail Account";
         
         Session session = Session.getInstance(pro, new Authenticator() {
             @Override
