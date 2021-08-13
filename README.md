@@ -15,4 +15,4 @@ Leaders and Employees
   - Choose a date to rent the resource and can only rent for the day
   - Follow up the request from the company, or cancel the request.
 
-Additional: Supports paging, Google Captcha authentication, Email authentication and Database storage on Google Cloud.
+Additional: Supports paging requests and resources, Google Captcha authentication, Email authentication and Database storage on Google Cloud.
