@@ -22,7 +22,7 @@ import javax.json.JsonReader;
 public class LoginGoogle implements Serializable {
 
     public static String GOOGLE_CLIENT_ID = "1009035370439-jhih7tec412cs537k313giuph9jst9s9.apps.googleusercontent.com";
-    public static String GOOGLE_CLIENT_SECRET = "ytSGJLALiN5XSNI9Ze-I9vL2";
+    public static String GOOGLE_CLIENT_SECRET = ""; //Secret Key.
     public static String GOOGLE_REDIRECT_URI = "http://localhost:8080/ResourceSharing/DispatchServlet?action=loginGoogle";
     public static String GOOGLE_LINK_GET_TOKEN = "https://accounts.google.com/o/oauth2/token";
     public static String GOOGLE_LINK_GET_USER_INFO = "https://www.googleapis.com/oauth2/v1/userinfo?access_token=";
